@@ -57,13 +57,13 @@ porter_stemmer = PorterStemmer()
 porter_stemmed_words = [porter_stemmer.stem(word) for word in filtered_words]
 print("Words after Stemming:", porter_stemmed_words)
 
-#%%
+# %%
 # 4.2 Stemming with SnowballStemmer
 snowball_stemmer = SnowballStemmer(language="english")
 snowball_stemmed_words = [snowball_stemmer.stem(word) for word in filtered_words]
 print("Words after Stemming:", snowball_stemmed_words)
 
-#%%
+# %%
 # 4.3 Stemming with LancasterStemmer
 lancaster_stemmer = LancasterStemmer()
 lancaster_stemmed_words = [lancaster_stemmer.stem(word) for word in filtered_words]

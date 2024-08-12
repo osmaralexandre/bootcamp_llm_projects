@@ -43,9 +43,7 @@ def ask_chatgpt(question):
 
 if __name__ == "__main__":
     while True:
-        user_question = input(
-            "Type your question to ChatGPT (or 'exit' to quit): "
-        )
+        user_question = input("Type your question to ChatGPT (or 'exit' to quit): ")
         if user_question.lower() == "exit":
             break
         answer = ask_chatgpt(user_question)
