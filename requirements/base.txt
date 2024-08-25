@@ -10,3 +10,6 @@ tiktoken==0.7.0
 langchain==0.2.14
 langchain-community==0.2.12
 langchain-openai==0.1.22
+youtube-search==2.1.2
+requests==2.32.3
+beautifulsoup4==4.12.3
