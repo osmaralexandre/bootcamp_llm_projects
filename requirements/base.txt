@@ -13,3 +13,4 @@ langchain-openai==0.1.22
 youtube-search==2.1.2
 requests==2.32.3
 beautifulsoup4==4.12.3
+vectordb2==0.1.2
